@@ -1,0 +1,43 @@
+body {padding: 0;
+      margin: 0;
+      background-color: lightblue;
+      color: white;
+}
+header h1 {text-align: center;
+}
+.main {display: flex;
+       flex-wrap: wrap;
+}
+.main .part {margin: 20px;
+             padding: 60px 50px;
+             height: 400px;
+             box-sizing: border-box;
+             border-radius: 20px;
+             background-color: rgb(71, 71, 224);
+             text-align: center;
+             width: 30%;
+}
+.main .part h2 {font-size: 36px;
+                font-weight: bold;
+                font-family: Arial, Helvetica, sans-serif;
+}
+.main .part p {font-size: 24px;
+                font-style: italic;
+}
+.main .part button {background-color: unset;
+                    border: 1.5px solid white;
+                    color: white;
+                    border-radius: 8px;
+                    padding: 10px 10px;
+}
+
+@media(max-width: 729px) {
+    
+    .main .part {padding: 50px 20px;
+                 width: 100%;
+    }
+    .main .part h2 {font-size: 12px;
+    }
+}
+
+
